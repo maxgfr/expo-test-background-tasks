@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { registerFetchTask } from "./tasks";
-const INTERVAL_TASKS = 60 * 15;
+const INTERVAL_TASKS = 60 * 1;
 
 registerFetchTask(
   "TASK_NAME",
